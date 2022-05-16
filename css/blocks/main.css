@@ -1,13 +1,14 @@
 /*
-Error: File to import not found or unreadable: ./base/base.
+Error: File to import not found or unreadable: ./base/reset.
        Load path: D:/GOIT/sites/site-num1/sass/blocks
         on line 2 of D:\GOIT\sites\site-num1\sass\blocks\main.scss
 
 1: //Base
-2: @import "./base/base";
+2: @import "./base/reset";
 3: 
-4: 
-5: //Block
+4: @import "./base/base";
+5: 
+6: //Block
 
 Backtrace:
 D:\GOIT\sites\site-num1\sass\blocks\main.scss:2
@@ -48,4 +49,4 @@ D:/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ./base/base.\A        Load path: D:/GOIT/sites/site-num1/sass/blocks\A         on line 2 of D:\GOIT\sites\site-num1\sass\blocks\main.scss\A \A 1: //Base\A 2: @import \"./base/base\";\A 3: \A 4: \A 5: //Block"; }
+  content: "Error: File to import not found or unreadable: ./base/reset.\A        Load path: D:/GOIT/sites/site-num1/sass/blocks\A         on line 2 of D:\GOIT\sites\site-num1\sass\blocks\main.scss\A \A 1: //Base\A 2: @import \"./base/reset\";\A 3: \A 4: @import \"./base/base\";\A 5: \A 6: //Block"; }
